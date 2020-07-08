@@ -1,0 +1,183 @@
+{
+  "chapter": 1,
+  "title": "1-3-2 데이터 할당",
+  "code": [
+    "var a;",
+    "a = 'abc';",
+    "",
+    "var a = 'abc';"
+  ],
+  "snapshots": [
+    {
+      "variableTable": [
+        {
+          "address": "...",
+          "data": null
+        },
+        {
+          "address": "1002",
+          "data": {
+            "name": "a",
+            "value": null
+          }
+        },
+        {
+          "address": "1003",
+          "data": null
+        },
+        {
+          "address": "1004",
+          "data": null
+        },
+        {
+          "address": "1005",
+          "data": null
+        },
+        {
+          "address": "...",
+          "data": null
+        }
+      ],
+      "dataTable": [
+        {
+          "address": "...",
+          "data": null
+        },
+        {
+          "address": "5002",
+          "data": null
+        },
+        {
+          "address": "5003",
+          "data": null
+        },
+        {
+          "address": "5004",
+          "data": null
+        },
+        {
+          "address": "5005",
+          "data": null
+        },
+        {
+          "address": "...",
+          "data": null
+        }
+      ]
+    },
+    {
+      "variableTable": [
+        {
+          "address": "...",
+          "data": null
+        },
+        {
+          "address": "1002",
+          "data": {
+            "name": "a",
+            "value": null
+          }
+        },
+        {
+          "address": "1003",
+          "data": null
+        },
+        {
+          "address": "1004",
+          "data": null
+        },
+        {
+          "address": "1005",
+          "data": null
+        },
+        {
+          "address": "...",
+          "data": null
+        }
+      ],
+      "dataTable": [
+        {
+          "address": "...",
+          "data": null
+        },
+        {
+          "address": "5002",
+          "data": null
+        },
+        {
+          "address": "5003",
+          "data": null
+        },
+        {
+          "address": "5004",
+          "data": "'abc'"
+        },
+        {
+          "address": "5005",
+          "data": null
+        },
+        {
+          "address": "...",
+          "data": null
+        }
+      ]
+    },
+    {
+      "variableTable": [
+        {
+          "address": "...",
+          "data": null
+        },
+        {
+          "address": "1002",
+          "data": {
+            "name": "a",
+            "value": "@5004"
+          }
+        },
+        {
+          "address": "1003",
+          "data": null
+        },
+        {
+          "address": "1004",
+          "data": null
+        },
+        {
+          "address": "1005",
+          "data": null
+        },
+        {
+          "address": "...",
+          "data": null
+        }
+      ],
+      "dataTable": [
+        {
+          "address": "...",
+          "data": null
+        },
+        {
+          "address": "5002",
+          "data": null
+        },
+        {
+          "address": "5003",
+          "data": null
+        },
+        {
+          "address": "5004",
+          "data": "'abc'"
+        },
+        {
+          "address": "5005",
+          "data": null
+        },
+        {
+          "address": "...",
+          "data": null
+        }
+      ]
+    }
+  ]
+}

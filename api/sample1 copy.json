@@ -1,0 +1,66 @@
+{
+  "chapter": 1,
+  "title": "1-3-2 데이터 할당",
+  "code": [
+    "var a;",
+    "a = 'abc';",
+    "",
+    "var a = 'abc';"
+  ],
+  "snapshots": [
+    {
+      "variableTable": [
+        ["...", null],
+        ["1002", ["a", null]],
+        ["1003", null],
+        ["1004", null],
+        ["1005", null],
+        ["...", null]
+      ],
+      "dataTable": [
+        ["...", null],
+        ["5002", null],
+        ["5003", null],
+        ["5004", null],
+        ["5005", null],
+        ["...", null]
+      ]
+    },
+    {
+      "variableTable": [
+        ["...", null],
+        ["1002", ["a", null]],
+        ["1003", null],
+        ["1004", null],
+        ["1005", null],
+        ["...", null]
+      ],
+      "dataTable": [
+        ["...", null],
+        ["5002", null],
+        ["5003", null],
+        ["5004", "'abc'"],
+        ["5005", null],
+        ["...", null]
+      ]
+    },
+    {
+      "variableTable": [
+        ["...", null],
+        ["1002", ["a", "@5004"]],
+        ["1003", null],
+        ["1004", null],
+        ["1005", null],
+        ["...", null]
+      ],
+      "dataTable": [
+        ["...", null],
+        ["5002", null],
+        ["5003", null],
+        ["5004", "'abc'"],
+        ["5005", null],
+        ["...", null]
+      ]
+    }
+  ]
+}
