@@ -16,7 +16,7 @@ type Snapshot = {
 
 const variableTable: VariableRecode[] = [
   [1002, null],
-  [1003, ["a", undefined], "info"],
+  [1003, ["a", null], "info"],
   [1004, null],
   [1005, null],
 ];
