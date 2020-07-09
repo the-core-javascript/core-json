@@ -5,7 +5,7 @@ type Style = 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info'
 type Variable = [Identifire, Address];
 type VariableRecode = [Address, Variable, Style?];
 
-type Data = number | string | Address;
+type Data = number | string | boolean | Address;
 type DataRecode = [Address, Data, Style?];
 
 type Snapshot = {
